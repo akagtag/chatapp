@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: ["https://chatapp-lyxt.onrender.com"],
+        origin: ["https://chatapp-pi-beryl.vercel.app"],
         methods: ["GET", "POST"],
     },
 });
